@@ -1,0 +1,37 @@
+{
+  "name": "claims-verification",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "swagger": "swagger-jsdoc -d swaggerDef.js && mv swagger.json ./public/."
+  },
+  "dependencies": {
+    "@elastic/search-application-client": "^8.9.0-1",
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.5.0",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "next": "13.4.19",
+    "next-auth": "^4.22.1",
+    "next-swagger-doc": "^0.4.0",
+    "nodemailer": "^6.9.4",
+    "postcss": "8.4.29",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "^2.1.5",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+  }
+}

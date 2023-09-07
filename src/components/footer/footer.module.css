@@ -1,0 +1,18 @@
+.container {
+  height: 50px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  background-color: #053B50;
+  padding: 0 60px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+

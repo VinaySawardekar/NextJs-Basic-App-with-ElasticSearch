@@ -1,0 +1,90 @@
+.outercontainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 20px; */
+  background-color:white;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#EEEEEE;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .title{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .subtitle{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .form {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input {
+    padding: 7px;
+    background-color: transparent;
+    border: 2px solid #bbb;
+    border-radius: 3px;
+    outline: none;
+    color: black;
+    font-size: 15px;
+
+  }
+  
+  .button {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #53c28b;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #49b07d;
+  }
+  
+  .or {
+    color: black;
+  }
+  
+  .link {
+    text-decoration: underline;
+    color: #7d7c7c;
+  }
+  
+  .link:hover {
+    color: rgb(61, 61, 61);
+  }
+  
+  .google {
+    background-color: rgba(228, 97, 50, 0.72);
+  }
+  
+  .google:hover {
+    background-color: rgba(228, 97, 50, 0.803);
+  }
+
+  .magic {
+    background-color: rgba(59, 94, 210, 0.72);
+  }
+
+  .magic:hover {
+    background-color: rgba(20, 64, 209, 0.72);
+  }
